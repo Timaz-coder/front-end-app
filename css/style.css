@@ -1,0 +1,234 @@
+/*@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&family=Montserrat:ital,wght@1,300&display=swap');
+* { padding: 0; margin: 0; }
+a { text-decoration: none; transition-property:all;
+    transition-timing-function: ease;
+    transition-duration: 0.6s;}
+body {
+    font-family: 'M PLUS 1p', 'sans-serif';
+    font-size: 20px;;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    background-color: #f8f8f8;
+    box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+    padding: 10px 0px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1571px) {
+    header .all-header {
+        width: 60%;
+        margin: 0 20%;
+   }
+}
+
+@media (max-width: 1570px) and (min-width: 1111px){
+    header .all-header {
+        width: 80%; 
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 1110px) and (min-width: 921px){
+    header .all-header {
+        width: 95%; 
+        margin: 0 2.5%;
+    }
+}
+
+@media (max-width: 920px) {
+    header .all-header {width: 100%;}
+    header .all-header .header-main {flex-direction: column;}
+    header .all-header .header-main div,
+    header .all-header .header-main a,
+    header .all-header .header-main input {margin-top:20px;}
+
+}
+
+
+header .all-header .lang {
+    text-align: right;
+    width:100%;
+}
+
+header .all-header .lang a {
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: 800;
+}
+
+header .all-header .lang a.active,
+header .all-header .lang a:hover {
+    color: #000;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    margin-left: 5px;
+}
+header .all-header .header-main {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 20px;
+}
+
+header .all-header .header-main img {
+    height: 50px;
+}
+
+#search {
+    border: 0px;
+    background-color: #ececec;
+    width: 360px;
+    height: 50px;
+    font-weight: 300px;
+    font-size: 16px;
+    text-indent: 20px;
+    outline: none;
+}    
+
+header .all-header .header-main a {
+    color: #000;
+}
+header .all-header .header-main a:hover {
+    color: #ccc;
+}
+
+header .all-header .header-main .btn {
+    cursor: pointer;
+    margin-left:20px;
+    height:40px;
+    width: 90px;
+    font-weight:800;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 40px;
+}
+
+header .all-header .header-main .btn.reg {width: 150px;}
+header .all-header .header-main .btn.reg,
+header .all-header .header-main .btn.auth:hover {
+    color: #fff;
+    background-color: #000;
+}
+header .all-header .header-main .btn.reg:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+
+Основная часть сайта
+
+
+
+
+main {
+    width: 100%;
+}
+
+main .section {
+    width: 60%;
+    margin: 30px 20%;
+}
+main .section h3 { font-size: 24px; }
+
+main .section h3 span {
+    display: inline-block;
+    width:30px;
+    height:2px;
+    margin-right:15px;
+    margin-left:40px;
+    margin-bottom:7px;
+    background-color:#000; 
+}
+
+main .section .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .section .img-block {
+    width:30%;
+    margin:20px 0;
+    position: relative;
+    cursor:pointer;
+}
+
+@media (max-width: 955px) {
+    main .section .flex-container {
+        flex-direction: column;
+    }
+    main .section .flex-container .img-block {width: 100%;}
+}
+
+
+main .section .img-block img{ width:100%; }
+
+main .section .img-block h4 {
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+main .section .img-block p {
+    font-size:15px;
+    font-weight:300;
+}
+
+main .section .img-block:hover .button-play  {opacity:1;}
+
+main .section .img-block .button-play {
+    opacity:0;
+    background-color: #000;
+    color:#ff0;
+    position:absolute;
+    padding:12px;
+    right:-30px;
+    top:120px;
+    transition-property:all;
+    transition-timing-function: ease;
+    transition-duration: 0.6s;
+    -o-transition: all ease-in-out 0.6s;
+}
+
+
+main .section .img-block .button-play span{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(172, 199, 23);
+    border-top-left-radius:90%;
+    transform:rotate(325deg);
+    margin-right:5px;
+} 
+
+футер сайта
+
+footer {
+    width:100%;
+}
+footer p {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding:50px 0;
+}*/
+body { height: none }
+.box {
+    width:400px;
+    margin:30px;
+    color:#000;
+}
+
+.jumbotron{
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color:#f8f9fa;
+}
+
+
+.d-flex > div {
+    width: 300px;
+}
